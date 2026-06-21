@@ -1,0 +1,26 @@
+# This is a showcase repo — no secrets or client data should ever live here.
+# These rules are a safety net in case anything is copied in by mistake.
+
+# Secrets, tokens, credentials
+*.json
+.env
+.env.*
+*token*
+*secret*
+*credential*
+*.pem
+*.key
+
+# Data dumps
+*.csv
+*.jsonl
+*_dump.*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
